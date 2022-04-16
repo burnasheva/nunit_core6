@@ -6,6 +6,7 @@ namespace Prime.UnitTests.Services
 {
 
     [TestFixture]
+    [Category("TestCase")]
     public class PrimeService_IsPrimeCould
     {
         private readonly PrimeService _primeService;
