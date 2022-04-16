@@ -15,6 +15,7 @@ namespace Prime.UnitTests.Services
         }
 
         [Test]
+        [Category("Simple")]
         public void ReturnFalseGivenValueOf3()
         {
             Console.WriteLine("some stdOut text");
@@ -27,6 +28,7 @@ namespace Prime.UnitTests.Services
         }
         
         [Test]
+        [Category("Simple")]
         public void ThisTestShouldFail()
         {
             Console.WriteLine("some stdOut new text");
