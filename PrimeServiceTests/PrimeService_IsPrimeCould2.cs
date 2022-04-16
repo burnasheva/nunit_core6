@@ -5,6 +5,7 @@ using Prime.Services;
 namespace Prime.UnitTests.Services
 {
     [TestFixture]
+    [Category("TestCase")]
     public class PrimeService_IsPrimeCould2
     {
         private readonly PrimeService _primeService;
