@@ -19,6 +19,7 @@
           <Configuration>
               <Verbosity>quiet</Verbosity>
           </Configuration>
-      </Logger>
+        </Logger>
+      </Loggers>
   </LoggerRunSettings>
 </RunSettings>
