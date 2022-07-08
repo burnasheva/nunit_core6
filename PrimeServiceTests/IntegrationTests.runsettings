@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <RunConfiguration>
-    <TargetPlatform>x64</TargetPlatform>
+    <!--<TargetPlatform>x64</TargetPlatform>-->
     <MaxCpuCount>2</MaxCpuCount>
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
     <TestCaseFilter>FullyQualifiedName~CheckAssumeCase</TestCaseFilter>
