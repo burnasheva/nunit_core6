@@ -2,5 +2,23 @@
 <RunSettings>
   <RunConfiguration>
     <TargetPlatform>x64</TargetPlatform>
+    <MaxCpuCount>2</MaxCpuCount>
+    <TreatNoTestsAsError>true</TreatNoTestsAsError>
+    <TestCaseFilter>FullyQualifiedName~CheckAssumeCase</TestCaseFilter>
   </RunConfiguration>
+  
+  <TestRunParameters>
+      <Parameter name="webAppUrl" value="http://localhost" />
+      <Parameter name="webAppUserName" value="Admin" />
+      <Parameter name="webAppPassword" value="Password" />
+  </TestRunParameters>
+    
+  <LoggerRunSettings>
+      <Loggers>
+        <Logger friendlyName="console" enabled="True">
+          <Configuration>
+              <Verbosity>quiet</Verbosity>
+          </Configuration>
+      </Logger>
+  </LoggerRunSettings>
 </RunSettings>
