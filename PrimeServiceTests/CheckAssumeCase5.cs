@@ -4,6 +4,7 @@ using NUnit.Framework;
 
 namespace Prime.UnitTests.Services
 {
+    [TestFixture, Explicit]
     public class CheckAssumeCase5
     {
         [Test]
